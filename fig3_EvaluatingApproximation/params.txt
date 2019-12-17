@@ -1,0 +1,5 @@
+g=0.5
+Delta0=0
+eta=100
+
+Initial conditions are (xs+0.5, ps, as+0.1)
