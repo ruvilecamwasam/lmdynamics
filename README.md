@@ -14,7 +14,7 @@ ruvi.lecamwasam@anu.edu.au
 # How to use the code
 
 ## Figure 2: Adiabatic Regime
-Each subfigure is in a different section of the Mathematica notebook *FigAdiabatic.nb*, but you should evaluate the whole thing in order as values generated are sometimes referenced in later parts. The figures will be generated and then exported to the notebook directory. Fig c may take some time while it calculates the frequencies of oscillation.
+Each subfigure is in a different section of the Mathematica notebook *FigAdiabatic.nb*, but you should run them sequentially as later cells sometimes reference variables from earlier ones. The figures will be generated and then exported to the notebook directory. Fig c may take some time while it calculates the frequencies of oscillation.
 
 ## Figure 3: Evaluating the Approximation
 This consists of two parts: a MATLAB file to generate the data, and a Mathematica notebook to plot it.
@@ -32,7 +32,7 @@ The simulation parameters are set in the function ``getInternalParams()``, and t
 Note that there are already two sets of .csv files in the folder. One set has 'h10_' prepended to it, the parameters corresponding to these are in *h10_params.txt*. The other set does not have anything prepended, and those parameters are in *params.txt*.
 
 ### Exporting the Figures
-Open and run the notebook *FigEvaluatingApprox.nb*. Each subfigure is in a different cell, but you will have to run them all as variables generated in some parts are used in others. The figures will be exported to the notebook directory.
+Open and run the notebook *FigEvaluatingApprox.nb*. Each subfigure is in a different cell, but you will have to run them sequentially as variables generated in some parts are used in later ones. The figures will be exported to the notebook directory.
 
 ## Figure 4: Visualisation
 Similarly to Figure 3, there is a MATLAB file to  generate the data and a Mathematica notebook to plot it. In fact, the MATLAB file is almost identical apart from exporting different data (this one outputs *phasespace.csv*), and as before you run the cells in the Mathematica notebook *FigVisualisation.nb* sequentially.
@@ -51,7 +51,7 @@ The dimensionless potential and heating rates were derived using the first-order
 * *wellAnalyticParams.p* - Same as above but a Python Pickle file. I didn't end up using this, but it remains in the code.
 
 ### Generate the figures
-Open and run the notebook *FigTrappingCooling.nb*. Each subfigure is in a different cell, but you will have to run them all as variables generated in some parts are used in others. The figures will be exported to the notebook directory.
+Open and run the notebook *FigTrappingCooling.nb*. Each subfigure is in a different cell, but you will have to run them sequentially as variables generated in some parts are used in later ones. The figures will be exported to the notebook directory.
 
 ## Figure 6: Photothermal Effects
 
