@@ -47,7 +47,7 @@ We first run *searchTrappingCooling.py*. This uses the dimensionless potential a
 
 ### Calculate the well widths and depths
 The dimensionless potential and heating rates were derived using the first-order correction to the adiabatic approximation. In *testApproximation.py* we test that this is trapping & cooling using the full dynamics, and numerically find the well width and depth as discussed in III.A of the manuscript. This outputs two data files
-* *wellNumericParams[eta].csv* - Here [eta] is the particular value of eta which is chosen. This is a .csv file contains points of the form (g, B, Delta, wellWidth, wellCentre, wellDepth).
+* *wellNumericParams[eta].csv* - Here [eta] is the particular value of eta which is chosen. This is a .csv file containing points of the form (g, B, Delta, wellWidth, wellCentre, wellDepth).
 * *wellAnalyticParams.p* - Same as above but a Python Pickle file. I didn't end up using this, but it remains in the code.
 
 ### Generate the figures
